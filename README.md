@@ -1,6 +1,6 @@
 # Variational Time Series Feature Extractor (VTSFE)
 
-This is the implementation of an article proposed to [ICRA 2018](http://icra2018.org/). Configuration classes for VTSFE can be found in [tighter_lb_2D](./app/models/tighter_lb_2D.py) and [tighter_lb_light_2D](./app/models/tighter_lb_light_2D.py).
+This is the implementation of my article published by [arXiv](https://arxiv.org/abs/1807.02350). Configuration classes for VTSFE can be found in [tighter_lb_2D](./app/models/tighter_lb_2D.py) and [tighter_lb_light_2D](./app/models/tighter_lb_light_2D.py).
 For the reviewers/readers of the VTSFE paper, we report in [Maxime Chaveroche's Master Thesis excerpt](./master_thesis_excerpt.pdf) the full computations leading to equations presented in Section 3 of our paper, precisely lower bound computations for Kingma's [VAE](https://arxiv.org/abs/1312.6114),  Karl's [DVBF](https://arxiv.org/pdf/1605.06432.pdf), Chen's [VAE-DMP](https://brml.org/uploads/tx_sibibtex/CheKarSma2016.pdf), and finally Chaveroche's VTSFE.
 
 VTSFE is inspired by Chen's [VAE-DMP](https://brml.org/uploads/tx_sibibtex/CheKarSma2016.pdf). A configuration class for our own implementation of VAE-DMP can be found in [vae_dmp_2D](./app/models/vae_dmp_2D.py).
