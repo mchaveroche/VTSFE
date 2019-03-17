@@ -1,3 +1,0 @@
-- edit `andy_reco.ui` with Qt Designer or Qt Creator
-- generate the ui using `sh ./gen.sh`
-- launch the gui with `python ./reco_gui.py`
